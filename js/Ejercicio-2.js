@@ -10,7 +10,7 @@ document.writeln(
 );
 document.writeln(`<ul class="my-3">`);
 document.writeln(`<li class="my-1">Elemento 1er posicion: ${ciudades[0]}</li>`);
-document.writeln(`<li class="my-1">Elemento 3er posicion: ${ciudades[3]}</li>`);
+document.writeln(`<li class="my-1">Elemento 3er posicion: ${ciudades[2]}</li>`);
 document.writeln(
   `<li class="my-1">Elemento ultima posicion: ${
     ciudades[ciudades.length - 1]
