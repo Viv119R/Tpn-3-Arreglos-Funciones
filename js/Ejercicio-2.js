@@ -3,8 +3,6 @@ do {
   const newCitys = prompt(`Ingrese una ciudad`);
   ciudades.push(newCitys);
 } while (confirm(`¿Desea agregar otra ciudad?`));
-{
-}
 document.writeln(
   `<h3 class="my-3">El arreglo de ciudades tiene ${ciudades.length} elementos</h3>`
 );
@@ -24,7 +22,7 @@ document.writeln(
 );
 document.writeln(`</ul>`);
 
-ciudades.splice(1,0,`Barcelona`);
+ciudades.splice(1,1,`Barcelona`);
 
 document.writeln(`<h3 class="my-3">Arreglo de ciudades</h3>`);
 document.writeln(`<ul class="my-3">`);

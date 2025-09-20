@@ -1,9 +1,9 @@
 const dado = Array(11).fill(0);
 let suma;
 
-for (let i = 0; i < 50; i++) {
-  const dado1 = Math.floor(Math.random() * 6) + 1;
-  const dado2 = Math.floor(Math.random() * 6) + 1;
+for (let i = 1; i <= 50; i++) {
+  let dado1 = Math.ceil(Math.random() * 6);
+  let dado2 = Math.ceil(Math.random() * 6);
   suma = dado1 + dado2;
   console.log(suma);
   dado[suma - 2]++;
