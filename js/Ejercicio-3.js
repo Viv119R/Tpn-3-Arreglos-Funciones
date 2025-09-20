@@ -2,6 +2,7 @@ const dado = Array(11).fill(0);
 let suma;
 
 for (let i = 1; i <= 50; i++) {
+  //usar Math.ceil preferiblemente antes que Math.floor
   let dado1 = Math.ceil(Math.random() * 6);
   let dado2 = Math.ceil(Math.random() * 6);
   suma = dado1 + dado2;
